@@ -1,0 +1,168 @@
+.inline-block {
+	  display: inline-block;
+	  vertical-align: top; 
+	  text-align: half right;
+  }
+.Image-LOGO{
+	width: 100px;
+}
+.logo{
+	 width: 13%;
+	 padding: 1%;
+	 text-align: center;
+	 /*border-style: solid;
+     border-color: green;
+	 border-width: 2px;*/
+ }
+.center {
+          margin: auto;
+          width: 50%;
+          border: none;
+          padding: 10px;
+        } 
+.flexContainer{
+	display: flex;
+	 flex-direction: row;
+	 
+	 /*border-style: solid;
+     border-color: green;
+	 border-width: 2px;
+	 /*flex-direction: column;*/
+}
+
+.flexContainer div{
+	width: 33%;
+	/*border-style: solid;
+     border-color: blue;
+	 border-width: 1px;*/
+}
+
+.item1{
+	grid-area: Image1;
+}
+
+.item2{
+	grid-area: Project1;
+}
+
+.item3{
+	grid-area: Image2;
+}
+
+.item4{
+	grid-area: Project2;
+}
+
+.workGrid {
+	display: grid;
+	/*border-style: solid;
+     border-color: green;
+	 border-width: 2px;*/
+	grid-template-columns: 300px 400px;
+	grid-template-areas: 'Image1 Project1'
+		'Image2 Project2';
+}
+.myWork {
+    width: 900px;
+    margin: 0 auto;
+	padding-top: 10px;
+}
+
+.mySkills {
+    width: 900px;
+    margin: 0 auto;
+	padding-top: 10px;
+}
+.salutation{
+	width: 1500px;
+    margin: 0 auto;
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+}
+nav  {
+	width: 73%;
+	height: 50%;
+	padding: 1%;
+	/*border-style: solid;
+    border-color: blue;
+	border-width: 2px;*/
+}
+img {
+	float:none;
+	display: inline-block;
+	/*margin: 2px 5px;*/
+	padding-right: 30px;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 14px;
+}
+
+ul{
+	width: 50%;
+	margin-left: 750px;
+	/*margin-left: 750px;*/
+}
+
+li {
+	text-align: left;
+	
+}
+
+.heroImg{
+	 height: 300px;
+	 padding-top: 1px;
+	 padding-bottom: 25px;
+	 margin: 0 auto;
+ }
+
+.content{
+	 width: 500px;
+	 margin: 0 auto;
+	/* border-style: solid;
+     border-color: red;
+	 border-width: 2px;*/
+ }
+ ul.a {
+	margin: 0 auto;
+	list-style-type: circle;
+	text-align: auto;
+  }
+
+  ul.b {
+	margin: auto;
+	list-style-type: circle;
+	text-align: auto;
+  }
+  ul.c {
+	margin: auto;
+	list-style-type: circle;
+	text-align: auto;
+  } 
+  
+ 
+/*footer{
+	background-color: #373738;
+	color: yellow;
+	padding: auto;
+	border-style: solid;
+    border-color: pink;
+	border-width: 2px;
+	}*/
+
+footer h6 {
+	text-align: center;
+	font-family: Georgia, serif
+}
+
+@media only screen and (max-width: 600px) {
+.flexContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.flexContainer div{
+	width: 100%;
+}
+}
