@@ -14,9 +14,6 @@ $('#btnResume').on("click",function(){
 
 $('#btnproject1').hover(function(){
 	console.log("Hovered on Button Project 1");
-	$( this ).append( $( "<span> ***</span>" ) );
-}, function() {
-    $( this ).find( "span" ).last().remove();
   }
 );
 
@@ -35,16 +32,13 @@ $('#btnproject2').on("click",function(){
 
 $('#btnproject2').hover(function(){
 	console.log("Hovered on Button Project 2");
-	$( this ).append( $( "<span> ***</span>" ) );
-}, function() {
-    $( this ).find( "span" ).last().remove();
   }
 );
 
 $('.item5').on("click",function(){
 	$(".item1").show();
 	$(".item3").show();
-	$(".workGrid").show();
+	$(".workGrid").fadeToggle();
 });
 
 $(".heroImg").mouseenter(function(){
@@ -53,12 +47,12 @@ $(".heroImg").mouseenter(function(){
 
 
 $(".myWork h1").on("click",function(){
-	$(".workGrid").toggle();
+	$(".workGrid").fadeToggle();
 });
 
 $(".mySkills h1").on("click",function(){
 	console.log("Clicked on mySkills");
-	$(".flexContainer").toggle();
+	$(".flexContainer").fadeToggle();
 });
 
 $("p").on("click",function(){
