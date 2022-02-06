@@ -117,7 +117,12 @@ li {
 	 margin: 0 auto;
  }
 
-.content{
+ .red
+{
+    background-color:red;
+}
+
+ .content{
 	 width: 500px;
 	 margin: 0 auto;
 	/* border-style: solid;

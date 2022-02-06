@@ -2,16 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-		<script src="js/index.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function(){
-			if (jQuery) {
-			alert("Yeah!!!!");
-			} else {
-			alert("Doesn't work");
-			}
-		});
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
     </head>
     <body>
         <header>
@@ -63,7 +54,7 @@
 						<div class="item2">
 							<h4>TripVia</h4>
 							<p>Mobile Travel App</p>
-							<button name="project1">View Project</button>
+							<button id="btnproject1">View Project</button>
 						</div>
 						<br>
 			<br>
@@ -76,7 +67,7 @@
 						<div class="item4">
 							<h4>Real Meal</h4>
 							<p>Mobile Recipe and Meal Prep App</p>
-							<button name="#project2">View Project</button>
+							<button id="btnproject2">View Project</button>
 						</div>
 					</div>
 					<div class="item5">
@@ -103,8 +94,9 @@
 			<br>
 			<br>
 			
-			<center><button name="#resume">
-				<li class="inline-block"><a href="https://drive.google.com/file/d/1afSvLgjkMSvHFVNyLJ8jzhTXFi1hZ7pz/view?usp=sharing">Download Resume</a></li>	
+			<center>
+			<button id="btnResume">
+				<li class="inline-block">Download Resume<!--a href="https://drive.google.com/file/d/1afSvLgjkMSvHFVNyLJ8jzhTXFi1hZ7pz/view?usp=sharing">Download Resume</a--></li>	
 			</button></center>
 			</div>
 			</section>
@@ -158,5 +150,5 @@
           </footer> 
 						
     </body>
-
+	<script src="js/index.js"> </script>	
 </html>
